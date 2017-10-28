@@ -1,9 +1,4 @@
-/*
- * assign5.cpp
- *
- *  Created on: Sep 13, 2016
- *      Author: Smita
- */
+
 #include<iostream>
 #include<string.h>
 using namespace std;
