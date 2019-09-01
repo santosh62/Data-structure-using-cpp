@@ -110,7 +110,7 @@ int main()
 	int ch,item;
 	char ans;
 	DeQue obj;
-	do
+	while(true)
 	{
 		cout<<"\n Menu";
 		cout<<"\n 1. Insert from rear";
@@ -118,10 +118,13 @@ int main()
 		cout<<"\n 3. Insert from front";
 		cout<<"\n 4. Delete from rear";
 		cout<<"\n 5. Display";
+		cout<<"\n 0. exit";
 		cout<<"\n Enter your choice: ";
 		cin>>ch;
 		switch(ch)
 		{
+		case 0:
+			exit(0);
 		case 1:
 			if(obj.Qfull())
 				cout<<"\n Queue is full";
@@ -166,8 +169,6 @@ int main()
 		default:
 			cout<<"\n Invalid choice....";
 		}
-		cout<<"\n Do you want to continue: ";
-		cin>>ans;
-	}while(ans=='y'||ans=='Y');
+	}
 	return 0;
 }

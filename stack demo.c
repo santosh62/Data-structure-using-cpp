@@ -1,5 +1,5 @@
 
-#include<iostream>
+// #include<iostream.h>
 #include<string.h>
 using namespace std;
 #define max 50
